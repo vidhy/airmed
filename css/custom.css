@@ -12,6 +12,10 @@ body {
     margin-top: 100px;
 }
 
+.videos-section {
+    width: 1020px;
+}
+
 .header-image {
     display: block;
     width: 100%;
