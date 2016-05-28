@@ -8,6 +8,10 @@ body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
+.contact-section {
+    margin-top: 100px;
+}
+
 .header-image {
     display: block;
     width: 100%;
@@ -19,6 +23,10 @@ body {
     -o-background-size: cover;
 }
 
+.header-image > .container {
+    padding-bottom: 40px;
+    width: 980px;
+}
 .headline {
     padding: 120px 0;
 }
@@ -192,7 +200,7 @@ footer {
 }
 
 .header-image {
-    background-color: #2C3E50;
+    background-color: #EFEFEF;
 }
 
 .page-header {
@@ -230,3 +238,78 @@ footer {
     display: inline-block;
 }
 
+.menu-bar {
+    line-height: 0.9;
+}
+
+.person {
+    width: 330px;
+}
+
+.person_image  img{
+    max-height: 400px;
+    width: 300px;
+    border: 5px solid #FFF;
+}
+
+.person_name {
+    padding: 10px;
+    width: 100%;
+    background-color: #FFF;
+    text-align: center;
+}
+
+section#contact {
+    background-color: #222;
+    background-image: url(../images/map-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: calc(100vh - 100px);
+}
+section#contact .section-heading {
+    color: #fff
+}
+section#contact .form-group {
+    margin-bottom: 25px
+}
+section#contact .form-group input,
+section#contact .form-group textarea {
+    padding: 20px
+}
+section#contact .form-group input.form-control {
+    height: auto
+}
+section#contact .form-group textarea.form-control {
+    height: 236px
+}
+section#contact .form-control:focus {
+    border-color: #fed136;
+    box-shadow: none
+}
+section#contact::-webkit-input-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+section#contact:-moz-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+section#contact::-moz-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+section#contact:-ms-input-placeholder {
+    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: #bbb
+}
+section#contact .text-danger {
+    color: #e74c3c
+}
