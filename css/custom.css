@@ -202,3 +202,31 @@ footer {
 .portfolio-item {
     margin-bottom: 25px;
 }
+
+.menu-bar {
+    margin-top: 40px;
+}
+
+.social-bar {
+    height: 20px;
+    background-color: #FFF;
+}
+
+.social-bar a {
+    padding: 10px !important;
+    color: #000 !important;
+}
+
+.social-icon img {
+    width: 20px;
+}
+
+.menu-bar ul {
+    float: none;
+    display: inline-block;
+}
+
+.menu-bar li {
+    display: inline-block;
+}
+
