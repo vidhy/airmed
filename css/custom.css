@@ -8,8 +8,8 @@ body {
     margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
-.contact-section {
-    margin-top: 100px;
+.contact-section, .videos-section, .photos-section, .about-section {
+    padding-top: 100px;
 }
 
 .videos-section {
@@ -48,7 +48,7 @@ body {
 }
 
 .featurette-divider {
-    margin: 80px 0;
+    margin: 20px 0;
 }
 
 .featurette {
@@ -157,7 +157,7 @@ footer {
 
 @media(max-width:640px) {
     .headline {
-        padding: 75px 0 25px 0;
+        padding: 0 0 25px 0;
     }
 
     .headline h1 {
@@ -208,7 +208,7 @@ footer {
 }
 
 .page-header {
-    margin-top: 80px;
+    margin-top: 20px;
 }
 
 .portfolio-item {
@@ -251,8 +251,8 @@ footer {
 }
 
 .person_image  img{
-    max-height: 400px;
-    width: 300px;
+    max-height: 300px;
+    width: 250px;
     border: 5px solid #FFF;
 }
 
@@ -316,4 +316,18 @@ section#contact:-ms-input-placeholder {
 }
 section#contact .text-danger {
     color: #e74c3c
+}
+
+.headline {
+    padding: 100px 0px 0px 0px;
+}
+
+.short-bio {
+    height: 300px;
+    position: relative;
+}
+
+.short-bio .btn{
+    position: relative;
+    bottom: -10px;
 }
