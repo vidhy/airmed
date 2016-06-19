@@ -3,18 +3,24 @@
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
-
+.custom-center {
+    margin: 0px 180px;
+}
 body {
-    margin-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    /*margin-top: 50px;*/ /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
 }
 
 .contact-section, .videos-section, .photos-section, .about-section {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
-.videos-section {
+/*.photos-section, .about-section, .contact-section {
+    padding-right: 180px;
+    padding-left: 180px;
+}*/
+/*.videos-section {
     width: 1020px;
-}
+}*/
 
 .header-image {
     display: block;
@@ -190,8 +196,8 @@ footer {
 }
 
 .custom-navbar {
-    background-color: #19b5fe;
-    border-color: #3391E7;
+    background-color: #ff9933;
+    border-color: #FF8C00;
 }
 
 .custom-navbar a {
@@ -200,7 +206,7 @@ footer {
 
 .custom-navbar ul a:hover {
     background-color: #FFF;
-    color: #19b5fe !important;
+    color: #ff9933 !important;
 }
 
 .header-image {
@@ -215,10 +221,10 @@ footer {
     margin-bottom: 25px;
 }
 
-.menu-bar {
+/*.menu-bar {
     margin-top: 40px;
 }
-
+*/
 .social-bar {
     height: 20px;
     background-color: #FFF;
@@ -247,7 +253,7 @@ footer {
 }
 
 .person {
-    width: 330px;
+    /*width: 330px;*/
 }
 
 .person_image  img{
@@ -278,7 +284,7 @@ section#contact .form-group {
 }
 section#contact .form-group input,
 section#contact .form-group textarea {
-    padding: 20px
+    padding: 10px
 }
 section#contact .form-group input.form-control {
     height: auto
@@ -319,7 +325,7 @@ section#contact .text-danger {
 }
 
 .headline {
-    padding: 100px 0px 0px 0px;
+    padding: 70px 0px 0px 0px;
 }
 
 .short-bio {
@@ -330,4 +336,114 @@ section#contact .text-danger {
 .short-bio .btn{
     position: relative;
     bottom: -10px;
+}
+
+.about-details {
+    width: calc(100% - 280px);
+}
+
+/*slider css*/
+#slider {
+  position: relative;
+  overflow: hidden;
+  margin: 0px auto 0 auto;
+  border-radius: 4px;
+}
+
+#slider ul {
+  position: relative;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  list-style: none;
+}
+
+#slider ul li {
+  position: relative;
+  display: block;
+  float: left;
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  height: 300px;
+  background: #ccc;
+  text-align: center;
+  line-height: 300px;
+}
+
+a.control_prev, a.control_next {
+  position: absolute;
+  top: 40%;
+  z-index: 999;
+  display: block;
+  padding: 4% 3%;
+  width: auto;
+  height: auto;
+  background: #2a2a2a;
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 18px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+a.control_prev:hover, a.control_next:hover {
+  opacity: 1;
+  -webkit-transition: all 0.2s ease;
+}
+
+a.control_prev {
+  border-radius: 0 2px 2px 0;
+}
+
+a.control_next {
+  right: 0;
+  border-radius: 2px 0 0 2px;
+}
+
+.slider_option {
+  position: relative;
+  margin: 10px auto;
+  width: 160px;
+  font-size: 18px;
+}
+
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.navbar {
+    min-height: initial;
+    margin: 0px 180px;
+}
+.navbar-brand {
+    padding: 10px 10px 10px 30px;
+    height: initial;
+}
+.bio {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.GeneratedMarquee {
+    font-family:'Comic Sans MS';
+    font-size:1em;
+    line-height:1.2em;
+    color:#FF3300;
+    background-color:#FFF;
+    height: 140px;
+    margin-bottom: 14px;
+}
+.no-padding {
+    padding:0px;
+}
+.events {
+    background-color: #fff;
+    margin-bottom: 10px;
+        padding:10px;
+}
+.events .header {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #EFEFEF;
 }
